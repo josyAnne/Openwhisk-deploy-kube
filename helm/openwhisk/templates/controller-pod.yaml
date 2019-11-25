@@ -99,6 +99,9 @@ spec:
         env:
         - name: "PORT"
           value: {{ .Values.controller.port | quote }}
+  
+        - name: "WHISK_ZOO_LOCATOR"
+          value: {{ .Values.controller.zkLocator }}
 
         - name: "TZ"
           value: {{ .Values.docker.timezone | quote }}

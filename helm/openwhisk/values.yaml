@@ -246,6 +246,7 @@ controller:
   options: ""
   jvmHeapMB: "1024"
   jvmOptions: ""
+  zkLocator: ""
 
 # Invoker configurations
 invoker:
